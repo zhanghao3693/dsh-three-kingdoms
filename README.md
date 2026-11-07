@@ -85,10 +85,17 @@
 安装：
 
 ```bash
-dsh plugin --profile desktop add ./three-kingdoms-strategy
+# 从 GitHub
+dsh plugin --profile desktop add zhanghao3693/dsh-three-kingdoms
+
+# 或从本地目录
+dsh plugin --profile desktop add /绝对路径/three-kingdoms-strategy
 ```
 
-或者直接用绝对路径装本地目录。装完刷新页面，右下角出现一个金色的「三」字圆钮，点开就是游戏。
+`--profile` 是必需参数，`desktop`（Electron GUI）和 `web` 都可以，省略会报
+`required option '--profile <name>' not specified`。
+
+装完刷新页面，右下角出现一个金色的「三」字圆钮，点开就是游戏。
 
 游戏内：
 
