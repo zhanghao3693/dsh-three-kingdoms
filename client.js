@@ -928,16 +928,16 @@ window.__ModuleLoader__.load({
     /* ---------------------------------------------------------------- 样式 */
 
     const CSS = `
-.tk3k-root{position:fixed;inset:0;pointer-events:none;z-index:900;
+.tk3k-root{position:fixed;inset:0;pointer-events:none;z-index:2147483000;
   --tk3k-accent:#c8a24a;--tk3k-accent-strong:#b8860b;--tk3k-accent-soft:#e3c072;--tk3k-danger:#e0887e;
   font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}
 /* 浅色主题：金色 #c8a24a 压在白底上对比度不足，换成深一档的赭金。 */
 body:not([data-ds-dark-theme]) .tk3k-root{--tk3k-accent:#8a6512;--tk3k-accent-strong:#7a5a10;--tk3k-accent-soft:#6f5410;--tk3k-danger:#b4362a}
-.tk3k-fab{position:absolute;right:18px;bottom:18px;pointer-events:auto;display:flex;align-items:center;gap:6px;padding:9px 14px 9px 11px;border-radius:999px;cursor:pointer;border:1px solid var(--dsw-alias-border-l2,rgba(128,128,128,.35));background:var(--dsw-alias-bg-layer-1,#1f1f22);color:var(--dsw-alias-label-primary,#e8e8ea);box-shadow:0 6px 20px rgba(0,0,0,.28);font-size:13px;font-weight:600;letter-spacing:.02em;transition:transform .14s ease,box-shadow .14s ease}
+.tk3k-fab{position:absolute;right:18px;bottom:96px;pointer-events:auto;display:flex;align-items:center;gap:6px;padding:9px 14px 9px 11px;border-radius:999px;cursor:pointer;border:1px solid var(--dsw-alias-border-l2,rgba(128,128,128,.35));background:var(--dsw-alias-bg-layer-1,#1f1f22);color:var(--dsw-alias-label-primary,#e8e8ea);box-shadow:0 6px 20px rgba(0,0,0,.28);font-size:13px;font-weight:600;letter-spacing:.02em;transition:transform .14s ease,box-shadow .14s ease}
 .tk3k-fab:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.34)}
 .tk3k-fab:active{transform:translateY(0)}
 .tk3k-fab i{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:6px;background:var(--tk3k-accent-strong);color:#fff;font-style:normal;font-size:12px;font-weight:700}
-.tk3k-panel{position:absolute;right:16px;bottom:16px;pointer-events:auto;display:flex;flex-direction:column;
+.tk3k-panel{position:absolute;right:16px;bottom:76px;pointer-events:auto;display:flex;flex-direction:column;
   width:min(460px,calc(100vw - 32px));height:min(720px,calc(100vh - 32px));
   border-radius:14px;overflow:hidden;
   background:var(--dsw-alias-bg-layer-1,#1b1b1f);
