@@ -1,0 +1,28 @@
+{
+  "name": "@local/three-kingdoms-strategy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "三国志·霸王的大陆式回合制战略 —— 8 城地图、内政、征兵、火计出征，复刻 07-09 年诺基亚 J2ME 三国游戏的核心体验。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "icon": "./icon.svg"
+}
